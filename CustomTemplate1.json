@@ -1,8 +1,8 @@
 {
 "Template": {
 "TemplateName": "CustomTemplate1",
-"SubjectPart": "{{courseName}} institution report {{reportGenDateTime}}",
+"SubjectPart": "{{argument1}} institution report {{argument2}}",
 "TextPart": " ",
-"HtmlPart": "<center><br><img src=\"cid:logo@my.logo\"/><br><br><b>The administrator for {{institutionName}} online practice course {{courseName}}, has asked for this report to be sent to you.</b><br><br>Report made on: {{reportGenDateTime}}<br><br>Please do not reply to this message.<br>Replies to this message are routed to an unmonitored mailbox.<br><center>"
+"HtmlPart": "<center><br><img src=\"cid:logo@my.logo\"/><br><br><b>Hello {{argument1}} foo bar foo {{argument3}}, Lorem ipsum got nothing on me.</b><br><br> Yes, this is the cool template we talked about: {{argument4}}<br><br> the arguments need to come in the object we use to sendMail.<br><center>"
 }
 }
