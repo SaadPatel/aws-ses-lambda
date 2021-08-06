@@ -11,7 +11,7 @@ The function can be invoked in any of the ways AWS supports lambda invocations. 
 Here's some description about the payload object format:
 
 
-{
+{<br>
 "file":{
   "bucketName":"yourS3BucketName",
   "fileKey":"path/to/file.pdf",
