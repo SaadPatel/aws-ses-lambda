@@ -1,0 +1,16 @@
+{
+"file":{
+  "bucketName":"yourS3BucketName",
+  "fileKey":"path/to/file.pdf",
+},
+"attachmentName":"file.pdf",
+"fromEmailId":"yourverifiedemail@dummy.com",
+"toEmailId":"receipient@dummy.com",
+"templateName":"CustomTemplate1",
+"templateInput":{
+  "argument1":"Replace",
+  "argument2":"placeholders in template",
+  "argument3":"with",
+  "argument4":"these supplied arguments",
+}
+}
