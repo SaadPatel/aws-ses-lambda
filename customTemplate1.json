@@ -1,0 +1,8 @@
+{
+"Template": {
+"TemplateName": "customTemplate1",
+"SubjectPart": "{{courseName}} institution report {{reportGenDateTime}}",
+"TextPart": " ",
+"HtmlPart": "<center><br><img src=\"cid:logo@oup.oxf\"/><br><br><b>The administrator for {{institutionName}} online practice course {{courseName}}, has asked for this report to be sent to you.</b><br><br>Report made on: {{reportGenDateTime}}<br><br>Please do not reply to this message.<br>Replies to this message are routed to an unmonitored mailbox.<br><center>"
+}
+}
