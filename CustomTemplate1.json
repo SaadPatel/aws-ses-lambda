@@ -1,8 +1,8 @@
 {
 "Template": {
 "TemplateName": "CustomTemplate1",
-"SubjectPart": "{{argument1}} institution report {{argument2}}",
-"TextPart": " ",
+"SubjectPart": "{{argument1}} World domination {{argument2}}",
+"TextPart": " Nobody really uses this part anymore. Might aswell keep this blank",
 "HtmlPart": "<center><br><img src=\"cid:logo@my.logo\"/><br><br><b>Hello {{argument1}} foo bar foo {{argument3}}, Lorem ipsum got nothing on me.</b><br><br> Yes, this is the cool template we talked about: {{argument4}}<br><br> the arguments need to come in the object we use to sendMail.<br><center>"
 }
 }
