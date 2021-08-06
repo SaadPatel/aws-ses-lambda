@@ -12,18 +12,18 @@ Here's some description about the payload object format:
 
 
 {<br>
-"file":{
-  "bucketName":"yourS3BucketName",
-  "fileKey":"path/to/file.pdf",
-},
-"attachmentName":"file.pdf",                      //This name will be used in the mail attachment
-"fromEmailId":"yourverifiedemail@dummy.com",      //Needs to be a SES verfied email address
-"toEmailId":"receipient@dummy.com",               //Needs to be SES verified email address IF you're in SES sandbox mode
-"templateName":"CustomTemplate1",                 //Specify the template name here. You can have multiple templates.
-"templateInput":{                                 //The keys in this object MUST match the placeholders in the template specified in templateName
-  "argument1":"Replace",
-  "argument2":"placeholders in template",
-  "argument3":"with",
-  "argument4":"these supplied arguments",
-}
-}
+"file":{<br>
+  "bucketName":"yourS3BucketName",<br>
+  "fileKey":"path/to/file.pdf",<br>
+},<br>
+"attachmentName":"file.pdf",                      //This name will be used in the mail attachment<br>
+"fromEmailId":"yourverifiedemail@dummy.com",      //Needs to be a SES verfied email address<br>
+"toEmailId":"receipient@dummy.com",               //Needs to be SES verified email address IF you're in SES sandbox mode<br>
+"templateName":"CustomTemplate1",                 //Specify the template name here. You can have multiple templates.<br>
+"templateInput":{                                 //The keys in this object MUST match the placeholders in the template specified in templateName<br>
+  "argument1":"Replace",<br>
+  "argument2":"placeholders in template",<br>
+  "argument3":"with",<br>
+  "argument4":"these supplied arguments",<br>
+}<br>
+}<br>
